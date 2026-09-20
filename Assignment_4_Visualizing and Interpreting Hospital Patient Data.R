@@ -1,5 +1,10 @@
 # Assignment 4: Visualizing and Interpreting Hospital Patient Data
 
+# Blogger link:
+
+#  https://lis4370adamsuleiman.blogspot.com/2026/09/assignment-4-visualizing-and.html
+
+
 # 1. Data Preparation and Cleaning
 
 Frequency     <- c(0.6, 0.3, 0.4, 0.4, 0.2, 0.6, 0.3, 0.4, 0.9, 0.2)
