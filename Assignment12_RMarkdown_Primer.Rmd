@@ -1,0 +1,39 @@
+---
+title: "My R Markdown Primer"
+author: "Adam Suleiman"
+output: html_document
+---
+
+# Introduction
+
+R Markdown is a file format that combines the R code with narrative text and the code's output into one document. When it is time for the file to knit, the R code will run and the results are printed into the finished HTML, PDF, or Word document.
+
+# Narrative
+
+With R Markdown, it helps me to write the report and the analysis in the same place, instead of having to copy results back and forth from R onto a separate document. RIght now, the code below this text will load the built-in mtcars dataset where it will then summarize the fuel economy and plot the horsepower against miles per gallon.
+
+# LaTeX Math
+
+With LaTex Math, the inline math looks like this: $\alpha + \beta = \gamma$.
+
+A displayed equation looks like this:
+
+$$
+y = \beta_0 + \beta_1 x
+$$
+
+# R Code
+
+```{r}
+data(mtcars)
+head(mtcars)
+```
+
+```{r}
+summary(mtcars$mpg)
+plot(mtcars$hp, mtcars$mpg)
+```
+
+# Reflection
+
+In all hoensty, I use R Markdown in my other course that I'm taking this semester (LIS4761), so I was already quite familiar with this file format. However, I will say that this format is definitely easier than writing a plain report as the code, results, and explanation are all in one file, which is neat. If (for some reason) the data changes, I can just simply knit again and everything will update on its own. 
